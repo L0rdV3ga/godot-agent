@@ -1,0 +1,19 @@
+@tool
+extends Node
+
+# Godot-specific files to ignore
+.export/**
+.import/**
+.user/**
+*.import
+*.vs
+bin/
+obj/
+*.tmp
+*.log
+.idea/
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
